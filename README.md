@@ -43,12 +43,12 @@ The project must be run using [Python 3.11.3](https://www.python.org/downloads/r
 
 4. Run the application
 
-Run the application using the following command:
-```bash
-uvicorn src.main:app --reload
-```
+   Run the application using the following command:
+   ```bash
+   uvicorn src.main:app --reload
+   ```
 
-The application will be running on http://127.0.0.1:8000/.
+   The application will be running on http://127.0.0.1:8000/.
 
 ## API Documentation
 
