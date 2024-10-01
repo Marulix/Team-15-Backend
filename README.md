@@ -11,14 +11,6 @@ Access to other repositories and documentation regarding the project can be foun
 
 RESTful API to aid the UniTrade mobile application. The API is built using FastAPI, a modern Python web framework that allows to build efficient and scalable APIs.
 
-## Installation
-
-### Requirements
-
-- Python 3.8 or higher
-- pip (Python package manager)
-- virtualenv (Python virtual environment manager)
-
 ## Local Development Setup
 
 The project must be run using [Python 3.11.3](https://www.python.org/downloads/release/python-3113/).
