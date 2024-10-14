@@ -5,7 +5,7 @@ from fastapi import APIRouter
 
 router = APIRouter(
     prefix="/products",
-    tags=["categories"],
+    tags=["products"],
     responses={404: {"detail": "Not found"}},
 )
 
