@@ -11,45 +11,26 @@ Access to other repositories and documentation regarding the project can be foun
 
 RESTful API to aid the UniTrade mobile application. The API is built using FastAPI, a modern Python web framework that allows to build efficient and scalable APIs.
 
-## Local Development Setup
+## Local Development Setup with Docker
 
-The project must be run using [Python 3.11.3](https://www.python.org/downloads/release/python-3113/).
+### Prerequisites
 
-1. Create a virtual environment
+- Docker installed on your local machine. You can follow the instructions [here](https://docs.docker.com/get-docker/).
 
-   ```shell
-   python -m venv venv
-   ```
+### Steps
 
-2. Activate the virtual environment
+1. Build the Docker image:
 
-   Unix:
-
-   ```shell
-   source venv/bin/activate
-   ```
-
-   Windows:
-
-   ```batch
-   venv\Scripts\activate.bat
-   ```
-
-3. Install dependencies
-
-   ```shell
-   pip install -r requirements.txt
-   ```
-
-4. Run the application
-
-   Run the application using the following command:
    ```bash
-   uvicorn src.main:app --reload
+   docker-compose build
    ```
 
-   The application will be running on http://127.0.0.1:8000/.
 
-## API Documentation
+2. Run the Docker container:
 
-The API documentation is available at http://127.0.0.1:8000/, created automatically by Swagger UI.
+   ```bash
+   docker-compose up
+   ```
+
+3. The API will be available at `http://127.0.0.1:8000`.
+4. The API documentation will be available at `http://127.0.0.1:8000/docs`.
