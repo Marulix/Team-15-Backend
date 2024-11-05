@@ -22,7 +22,7 @@ RESTful API to aid the UniTrade mobile application. The API is built using FastA
 1. Build the Docker image:
 
    ```bash
-   docker-compose build
+   docker compose build --no-cache
    ```
 
 
